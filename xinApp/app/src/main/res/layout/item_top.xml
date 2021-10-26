@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_top"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/p2"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_top_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    android:text="TiTle"
+                    android:textSize="24dp"/>
+                <ImageView
+                    android:id="@+id/top_number"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="35dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/top1"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_top_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="作者：张三"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/tv_top_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="全球最大的中文搜索引擎，秉承”用户体验至上”的理念致力于让网民更便捷地获取信息，找到所求。除网页搜索外，百度还提供音乐、图片、视频、地图等多样化的搜索服务"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:text="TTTTTTTTTTTTTTTTTTTTTTTTT"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/pink"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
